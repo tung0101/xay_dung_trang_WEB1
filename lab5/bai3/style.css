@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.container>header{
+    background-size: 100% 100%;
+    border: 1px solid red;
+    height: 250px;
+    margin: 25%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+.container>nav{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: orangered;
+}
+.container>nav>a{
+    font-size: 25px;
+    padding: 2%;
+}
+.sanpham{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.sanpham>img{
+    width: 150px;
+    height: 145px;
+}
+.column{
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+h2{
+    padding: 5%;
+}

@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+
+form {
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid gray;
+}
+
+.form-control {
+  width: 98%;
+  padding: 5px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.form-control label {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.form-control:focus {
+  background-color: yellow;
+  box-shadow: 0 0 3px red;
+  border: 1px solid yellow;
+}
+
+.form-button {
+  padding: 8px 30px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  color: orangered;
+  box-shadow: inset 0 0 20px blue;
+}
+
+.form-button:hover {
+  color: blue;
+  box-shadow: inset 0 0 20px orangered;
+}
+
+.form-button:disabled {
+  color: darkgray;
+  box-shadow: inset 0 0 2px gray;
+}
+
+.form .gc textarea {
+  background-color: white;
+  border: 1px solid gray;
+  box-shadow: inset 0 0 2px gray;
+}
+
+.form .gc textarea:focus {
+  background-color: yellow;
+  border: 1px solid red;
+  box-shadow: inset 0 0 3px orangered;
+}

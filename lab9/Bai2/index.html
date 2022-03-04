@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>form</title>
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 50px;
+  }
+
+  form {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+  }
+</style>
+
+<body>
+  <form action="">
+    <div class="form">
+      <div>Họ Và Tên:</div>
+      <input type="text" class="form-control" style="width: 320px;" />
+    </div>
+
+    <div class="form" style="margin: 10px 0px">
+      Giới Tính:
+      <input type="radio" name="1" class="form-control" />
+      Nam
+      <input type="radio" name="1" class="form-control" />
+      Nữ
+    </div>
+
+    <div class="form" style="margin: 10px 0px">
+      <div>Hình Ảnh:</div>
+      <input type="file" />
+    </div>
+
+    <div class="form" style="margin: 10px 0px">
+      <div>Quốc Tịch:</div>
+      <select class="quoctich" style="width: 320px;">
+        <option value="au">Australia</option>
+        <option value="ca">Canada</option>
+        <option value="usa">USA</option>
+        <option value="usa">Việt Nam</option>
+      </select>
+    </div>
+
+    <div class="form" style="margin: 10px 0px">
+      <div>Sở Thích:</div>
+      <input type="checkbox" class="checkbox" />
+      Thể Thao
+      <input type="checkbox" class="checkbox" />
+      Du Lịch
+      <input type="checkbox" class="checkbox" />
+      Âm Nhạc
+      <input type="checkbox" class="checkbox" />
+      Ẩm Thực
+    </div>
+
+    <div class="form">
+      <div>Ghi Chú:</div>
+      <textarea rows="5" cols="41">
+        Chào Cô Và Các Bạn
+          </textarea>
+    </div>
+    <div class="form">
+      <button type="submit" class="btn-primary">Đăng Ký</button>
+      <button type="submit" class="btn-primary">Nhập Lại</button>
+    </div>
+  </form>
+</body>
+
+</html>

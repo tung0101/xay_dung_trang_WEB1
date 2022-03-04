@@ -1,0 +1,28 @@
+.vmenu {
+    box-shadow: 0 0 2px gray;
+    padding: 0px;
+    border-radius: 3px;
+    margin: 5px;
+    list-style: none;
+    width: 300px;
+}
+
+.vmenu a {
+    background: url("Picture/check2.1.png") no-repeat 10px center;
+    min-height: 30px;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 9px 30px;
+}
+
+.vmenu a:hover {
+    background: url("Picture/check2.2.png") no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+}

@@ -1,0 +1,22 @@
+img.anh{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 25px;
+}
+.menu>a{
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: none;
+}
+.menu>a:visited{
+    color: green;
+}
+.menu>a:hover{
+    color: red;
+    text-decoration:underline;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form action="">
+    <div class="form">
+      <label>Họ và Tên:</label>
+      <br />
+      <input class="form-control" text" />
+    </div>
+
+    <fieldset style="margin: 10px 0px">
+      <legend">Giới Tính:</div>
+        <br>
+        <input type="radio" name="1" />
+        Nam
+        <input type="radio" name="1" />
+        Nữ
+    </fieldset>
+
+    <div class="form" style="margin: 10px 0px">
+      <label>Ngày Sinh:</label>
+      <br>
+      <input type="date" class="form-control" />
+    </div>
+
+    <div class="form" style="margin: 10px 0px">
+      <label>Điểm:</label>
+      <br>
+      <input type="number" min="0" max="10" step="0.25" class="form-control" />
+    </div>
+
+    <div class="form" style="margin: 10px 0px">
+      <label>Nghề Nghiệp:</label>
+      <br>
+      <input type="list" list="ide" class="form-control" />
+      <datalist id="ide">
+        <option value="Phụ Hồ" />
+        <option value="Lập Trình Viên" />
+        <option value="Chạy Xe" />
+        <option value="Grap" />
+        <option value="Phục Vụ" />
+      </datalist>
+    </div>
+
+    <fieldset style="margin: 10px 0px">
+      <div">Sở Thích:</legend>
+        <br>
+        <input type="checkbox" />
+        Thể Thao
+        <input type="checkbox" />
+        Âm Nhạc
+        <input type="checkbox" />
+        Du Lịch
+        <input type="checkbox" />
+        Ẩm Thực
+    </fieldset>
+
+    <div class="form" style="margin: 10px 0px">
+      <label>Ghi Chú:</label>
+      <br />
+      <textarea rows="5" cols="42" tabindex="2"> </textarea>
+    </div>
+    <hr>
+    <div class="form" style="margin: 10px 0px">
+      <button class="form-button" tabindex="3">Đăng Ký</button>
+      <button class="form-button" tabindex="4">Nhập Lại</button>
+    </div>
+  </form>
+</body>
+
+</html>

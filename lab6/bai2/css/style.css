@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+    border: 1px solid red;
+    height: 150px;
+}
+.container>nav{
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: orangered;
+}
+.container>article{
+    min-height:400px;
+    width:75%;
+    background-color:white;
+    float:left;
+}
+.container>aside{
+    min-height:400px;
+    width:25%;
+    background-color:lightgray;
+    float:right;
+}
+.container>footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+.container>nav>a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;  
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+
+

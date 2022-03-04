@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+
+.container {
+  width: 1000px;
+  height: 500px;
+}
+
+.content {
+  width: 800px;
+  height: 508px;
+  float: left;
+  background: rgb(153, 141, 141);
+}
+
+.table {
+  width: 200px;
+  height: 500px;
+  float: left;
+}
+
+.table img {
+  width: 180px;
+  height: 160px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+iframe[name=page]{
+  width: 100%;
+  min-height: 400px;
+}

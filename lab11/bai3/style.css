@@ -1,0 +1,63 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.container>header{
+  background-size: 100% 100%;
+  border: 1px solid red;
+  height: 250px;
+  margin: 25%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+}
+.container>nav{
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-color: orangered;
+  text-decoration: none;
+}
+.container>nav>a{
+  font-size: 25px;
+  padding: 2%;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  line-height: 30px;
+  border: 1px solid gray;
+}

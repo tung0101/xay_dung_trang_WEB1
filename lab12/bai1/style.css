@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+td {
+  padding: 10px;
+}
+td:nth-child(1) {
+  width: 30%;
+}
+td:nth-child(2) {
+  width: 75%;
+}
+tr {
+  height: 100px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
